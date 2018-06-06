@@ -1,7 +1,7 @@
 const Eris = require("eris");
 
 // Replace BOT_TOKEN with your bot account's token
-var bot = new Eris.CommandClient("token", {}, {
+var bot = new Eris.CommandClient("super secret bot token", {}, {
     description: "Bot for the /r/NDShacks discord server",
     owner: "js8bit",
     prefix: "."
@@ -18,7 +18,7 @@ bot.registerCommand("summon", "💁 ``// dsi guide`` 🎮 ``// cheat databases``
         {
             emoji: "💁",
             type: "edit",
-            response: ["https://dsiguide.me/"]
+            response: ["https://dsi.cfw.guide"]
         },
         {
             emoji: "🎮",
